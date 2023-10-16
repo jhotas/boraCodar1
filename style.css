@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #0F0D13;
+}
+
+#page {
+  display: grid;
+  grid-template-areas: 
+  'A B'
+  'A C';
+  gap: 2rem;
+}
+
+#player1 {
+  grid-area: A;
+  padding: 3rem 2.5rem;
+}
+
+#player2 {
+  grid-area: B;
+
+}
+
+.player {
+  border-radius: 10px;
+  background-color: #2A2141;
+  padding: 1.75rem;
+}
